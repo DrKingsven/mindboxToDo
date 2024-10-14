@@ -1,0 +1,51 @@
+.cardList {
+    width: 80%;
+    min-height: 70vh;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.list {
+    max-height: 70vh;
+    border: 1px solid #2384d4;
+    border-radius: 0% !important;
+    height: 70vh;
+    overflow: auto;
+}
+
+.nullTask {
+    text-align: center;
+    color: #242323;
+    font-size: 2rem;
+    font-weight: 300;
+    margin: auto;
+}
+
+.search {
+    border-radius: 0 !important;
+    outline: none;
+    box-shadow: none !important;
+
+
+
+}
+
+.searchButton {
+    border-radius: 0 !important;
+
+}
+
+.filter {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    color: #242323;
+
+    &:hover {
+        background-color: rgb(255, 255, 255);
+    }
+
+    &:focus {
+        background-color: rgb(255, 255, 255);
+    }
+
+}
