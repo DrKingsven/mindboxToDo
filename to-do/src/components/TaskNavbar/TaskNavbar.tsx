@@ -6,14 +6,14 @@ interface TaskNavbarProps {
   getTasks: () => void;
 }
 
-const TaskNavbar: React.FC<TaskNavbarProps> = ({getTasks}) => {
+const TaskNavbar: React.FC<TaskNavbarProps> = ({ getTasks }) => {
   return (
     <Navbar className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home">TODOS</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
-          <NewTaskModal getTasks={getTasks}/>
+          <NewTaskModal getTasks={getTasks} />
         </Navbar.Collapse>
       </Container>
     </Navbar>
